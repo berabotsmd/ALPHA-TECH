@@ -41,7 +41,7 @@ If you create a clone of my bot then Don't forget to give ***Credit***
 
 2. Scan or pair to get session ID
     <br>
-<a href='https://taira-web-service.onrender.com/' target="_blank"><img alt='Get Session ID' src='https://img.shields.io/badge/Get-Session_ID-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=blue'/></a>
+<a href='https://david-session-2-94sq.onrender.com/pair' target="_blank"><img alt='Get Session ID' src='https://img.shields.io/badge/Get-Session_ID-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=blue'/></a>
 
 #### DEPLOY STEPS
 
