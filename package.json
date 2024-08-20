@@ -1,13 +1,13 @@
 {
-               "name": "king-md",
+               "name": "Alpha-md",
                "version": "1.3.0",
-               "description": "Multi Device WhatsApp Bot By Naveed Dogar.",
+               "description": "Multi Device WhatsApp Bot By BRUCE BERA.",
                "main": "lib/client.js",
                "type": "commonjs",
                "license": "Apache-2.0",
    "scripts": {
-                "start": "pm2 start lib/client.js --deep-monitoring --attach --name KING-MD",
-                "stop": "pm2 stop KING-MD"
+                "start": "pm2 start lib/client.js --deep-monitoring --attach --name ALPHA-MD",
+                "stop": "pm2 stop ALPHA-MD"
                 },
                "author": "naveeddogar",
               "dependencies": {
@@ -75,10 +75,10 @@
                     },
                  "repository": {
                  "type": "git",
-                 "url": "git+https://github.com/TechnicalNaveed5/KING-TEST.git"
+                 "url": "git+https://github.com/berabotd/ALPHA-TECH.git"
                   },
                  "bugs": {
-                 "url": "https://github.com/TechnicalNaveed5/KING-TEST/issues"
+                 "url": "https://github.com/berabotd/ALPHA-TECH.git"
                   },
-                 "homepage": "https://github.com/TechnicalNaveed5/KING-TEST#readme"
+                 "homepage": "https://github.com/berabotd/ALPHA-TECH#readme"
                   }
