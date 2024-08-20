@@ -35,7 +35,7 @@ const speedofbot = require("performance-now");
 global.db = JSON.parse(fs.readFileSync(__dirname + "/database.json"));
 var CryptoJS = require("crypto-js");
 var prefixRegex = Config.prefix === "false" || Config.prefix === "null" ? "^" : new RegExp('^[' + Config.HANDLERS + ']');
-let cc = Config.sessionName.replace(/KING-MD;;;/g, "");
+let cc = Config.sessionName.replace(/ALPHA-MD;;;/g, "");
 async function MakeSession(){
 if (!fs.existsSync(__dirname + '/auth_info_baileys/creds.json')) {
     if(cc.length<30){
@@ -58,7 +58,7 @@ setTimeout(() => {
 	try{
         await mongoose.connect(mongodb);
 	} catch {
-		console.log('Could not connect with Mongodb.\nPlease Enter New Mongodb Or visit https://github.com/naveeddogar/KING-MD/wiki')
+		console.log('Could not connect with Mongodb.\nPlease Enter New Mongodb Or visit https://github.com/berabotsmd/ALPHA-TECH/wiki')
 	}
     }
     main()
@@ -533,7 +533,7 @@ const { fetchJson } = require('../lib');
   var time = moment().format('HH:mm');
   moment.tz.setDefault('Asia/Kolkata').locale('id');
   var date = moment.tz('Asia/Kolkata').format('DD/MM/YYYY');
-  var status = `${textt} \n⏰Time: ${time} \n🚀 𝕂𝕀ℕ𝔾-𝕄𝔻 𝚩𝚯𝚻`;
+  var status = `${textt} \n⏰Time: ${time} \n🚀 𝔸𝕃ℙℍ𝔸-𝕄𝔻 𝚩𝚯𝚻`;
   await Void.updateProfileStatus(status);
 }
 await updateStatus()
@@ -761,7 +761,7 @@ await updateStatus()
         Void.ev.on('connection.update', async(update) => {
                 const { connection, lastDisconnect } = update
                 if (connection === "connecting") {
-                   console.log("📡CONNECTING TO KING-MD HOST.");
+                   console.log("📡CONNECTING 𝔸𝕃ℙℍ𝔸-𝕄𝔻 HOST.");
                 }
                 if (connection === 'open') {
                     console.log("💉 INSTALLING EXTERNAL MODULES!");
@@ -773,7 +773,7 @@ await updateStatus()
                         let data = AxiosData.data
                         await fs.writeFileSync(__dirname + '/../plugins/' + check[i].id + '.js', data, "utf8")
                     }
-                    console.log("✅ KING-MD SUCCESSFULLY INSTALLED 🩸!");
+                    console.log("✅ 𝔸𝕃ℙℍ𝔸-𝕄𝔻 SUCCESSFULLY INSTALLED 🩸!");
                     fs.readdirSync(__dirname + "/../plugins").forEach((plugin) => {
                         if (path.extname(plugin).toLowerCase() == ".js") {
                             require(__dirname + "/../plugins/" + plugin);
@@ -1144,7 +1144,7 @@ const html = `
 <!DOCTYPE html>
 <html>
   <head>
-    <title>king-Md</title>
+    <title>𝔸𝕃ℙℍ𝔸-𝕄𝔻</title>
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
     <script>
       setTimeout(() => {
@@ -1185,13 +1185,13 @@ const html = `
   </head>
   <body>
     <section>
-      Hello from Naveed Dogar!
+      Hello from BruceBera!
     </section>
   </body>
 </html>
 `
 app.get("/", (req, res) => res.type('html').send(html));
-app.listen(port, () => console.log(`KING-MD Server listening on port http://localhost:${port}!`));
+app.listen(port, () => console.log(`𝔸𝕃ℙℍ𝔸-𝕄𝔻 Server listening on port http://localhost:${port}!`));
     //=============================[to get message of New Update of this file.]===================================================
     let file = require.resolve(__filename)
     fs.watchFile(file, () => {
