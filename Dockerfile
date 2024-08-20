@@ -1,5 +1,5 @@
-FROM quay.io/naveeddogar/kingmd
-RUN git clone https://github.com/MsmProfessional/KING-MD /root/naveeddogar
+FROM quay.io/berabotsmd/ALPHA-MD
+RUN git clone https://github.com/berabotsmd/ALPHA-TECH/root/berabotsmd
 WORKDIR /root/naveeddogar/
 RUN npm install npm@latest
 RUN npm install
