@@ -1,7 +1,7 @@
 { 
   "name": "ALPHA-MD",
   "description": "A Whatsapp md bot built By Naveed to make experience better",
-  "logo": "ALPHA-MD.jpg",
+  "logo": "https://i.ibb.co/BNdbNrc/ALPHA-MD.jpg",
   "keywords": ["nodejs", "bot", "whatsapp bot", "ALPHA-Two", "ALPHA-MD", "ALPHA","ALPHA-Bot","theme bot","multi device","baileys"],
   "success_url": "/",
   "stack": "container",
@@ -29,7 +29,7 @@
     },
    "THUMB_IMAGE": {
     "description": "Put Your Image Url for bot logo",
-     "value": "ALPHA-MD.jpg"
+     "value": "https://i.ibb.co/BNdbNrc/ALPHA-MD.jpg"
     },
     "ANTI_BAD_WORD": {
     "description": "Put words here. If you want it enabled in your bot otherwise leave it blank",
