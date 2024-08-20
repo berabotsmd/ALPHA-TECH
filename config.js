@@ -6,17 +6,17 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 global.owner = process.env.OWNER_NUMBER.split(",")
 global.mongodb = process.env.MONGODB_URI || ""
 global.port= process.env.PORT || 5000
-global.email = 'textnow1pak@gmail.com'
-global.github = 'https://github.com/naveeddogar/KING-MD'
-global.location = 'pakistan/multan'
-global.gurl = 'https://whatsapp.com/channel/0029Va66s2IJENxvTJjUtM1w' // add your username
-global.sudo = process.env.SUDO || '923096566451'
-global.devs = '923096566451';
-global.website = 'https://king-md-session.onrender.com/' // Hello world
+global.email = 'brucebera5@gmail.com'
+global.github = 'https://github.com/berabotsmd/ALPHA-TECH'
+global.location ='kenya,Kitale'
+global.gurl = 'https://whatsapp.com/channel/0029VajJoCoLI8YePbpsnE3q' // add your username
+global.sudo = process.env.SUDO || '254743982206'
+global.devs = '254743982206';
+global.website = 'https://ALPHA-MD-session.onrender.com/' // Hello world
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/5541dfe4dc8c2f51e3f02.jpg'
 module.exports = {
-  botname:   process.env.BOT_NAME === undefined ? 'KING-MD' : process.env.BOT_NAME,
-  ownername: process.env.OWNER_NAME === undefined ? 'Naveed Dogar' : process.env.OWNER_NAME,
+  botname:   process.env.BOT_NAME === undefined ? 'ALPHA-MD' : process.env.BOT_NAME,
+  ownername: process.env.OWNER_NAME === undefined ? 'BRUCE BERA' : process.env.OWNER_NAME,
   sessionName:  process.env.SESSION_ID === undefined ? false : process.env.SESSION_ID,
   author:  process.env.PACK_AUTHER.split(";")[0] === undefined ? 'Naveed-Dogar' : process.env.PACK_AUTHER.split(";")[0],
   auto_read_status :  process.env.AUTO_READ_STATUS  || 'true' ,
@@ -44,7 +44,7 @@ module.exports = {
     APP_NAME: process.env.HEROKU_APP_NAME === undefined ? '' : process.env.HEROKU_APP_NAME
 },
   VERSION: process.env.VERSION === undefined ? 'Ｖ-1.3.0' : process.env.VERSION,
-  LANG: process.env.THEME|| 'KING-MD',
+  LANG: process.env.THEME|| 'ALPHA-MD',
   WORKTYPE: process.env.WORKTYPE === undefined ? 'public' : process.env.WORKTYPE
 };
 
